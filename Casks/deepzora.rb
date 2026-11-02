@@ -6,25 +6,25 @@ cask "deepzora" do
     end
   end
 
-  version "0.0.2"
+  version "0.0.3"
 
   on_macos do
     on_arm do
-      sha256 "a7f6f802ce662d8b7d13f5d68610a427e27853d53438ec0352f63aab78d2bd3e"
+      sha256 "9ef16460e4bf7a443d2a053e60ae676a390c683e0cae5ffc07176f5cda267cef"
       url "https://github.com/SivanCola/deepzora/releases/download/v#{version}/deepzora-darwin-arm64.tar.gz"
     end
     on_intel do
-      sha256 "fb39a2ccea2be1f3138e91daf1bfbe0a5b2434aea0ed4c3607a50f7da22ace01"
+      sha256 "f65b97e188ac6929c8c704c7d9c0f2f7d2fd04e64ff8bbd81bac7672f7bc804e"
       url "https://github.com/SivanCola/deepzora/releases/download/v#{version}/deepzora-darwin-amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "78628da38e7316d88f27e027b560ec19362d29ee9c039d7bbb18a4e1a875208a"
+      sha256 "6486eb0c5972386b9cb927d78b52ecc05b8d39186dc431b0881f83d9736e5049"
       url "https://github.com/SivanCola/deepzora/releases/download/v#{version}/deepzora-linux-arm64.tar.gz"
     end
     on_intel do
-      sha256 "b9127f3a7393e9046c6f0804651527ee524be3dd57f6b4aa9a32baf911a445d5"
+      sha256 "dce850d67cf65e41bac449a04371b3b9d036c80c89298bec86f3d916ece8f725"
       url "https://github.com/SivanCola/deepzora/releases/download/v#{version}/deepzora-linux-amd64.tar.gz"
     end
   end
